@@ -1,0 +1,9 @@
+var today = " Visit Today";
+var inquiries = " Inquiries Today";
+			document.getElementById("visitGithub").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitLinkedin").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitUplabs").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitVero").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitUnsplash").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitInfluence").innerHTML = Math.floor(Math.random() * 1009) + today;
+			document.getElementById("visitOverview").innerHTML = Math.floor(Math.random() * 100) + inquiries;
